@@ -1,0 +1,42 @@
+h1{text-align:center
+	padding-left:100px;
+	padding-right:100px;}
+h2{text-align:center
+	padding-left:100px;
+	padding-right:100px;}
+h3{text-align:center
+	padding-left:100px;
+	padding-right:100px;}
+h4{text-align:center
+	padding-left:100px;
+	padding-right:100px;}
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-color:white;
+}
+
+	
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+	font-color:white;
+}
+
+.table{
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align: middle;
+}
